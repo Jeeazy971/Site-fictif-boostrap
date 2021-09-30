@@ -215,7 +215,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 order-2">
-                        <img src="assets/img/creation-section1.jpg" alt="image explorer" class="img-fluid mb-3 rounded-circle">
+                        <img src="assets/img/creation-section1.jpg" alt="image creation" class="img-fluid mb-3 rounded-circle">
                     </div>
                     <div class="col-md-6 order-1">
                         <h3>Crée ta passion</h3>
@@ -243,7 +243,7 @@
 
          <!-- PARTARGER EN-TETE-->
 
-        <section id="partage-menu" class="bg-primary">
+        <section id="partager-menu" class="bg-primary">
             <div class="container">
                 <div class="row">
                     <div class="col text-center py-5">
@@ -266,10 +266,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="assets/img/explorer-section1.jpg" alt="image explorer" class="img-fluid mb-3 rounded-circle">
+                        <img src="assets/img/partage-section1.jpg" alt="image partager" class="img-fluid mb-3 rounded-circle">
                     </div>
                     <div class="col-md-6">
-                        <h3>Explorer & se connecter</h3>
+                        <h3>Partage ce que tu crée</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cum maxime? Quibusdam sapiente qui voluptas?</p>
                         <div class="d-flex">
                              <div class="p-4 align-self-start">
@@ -292,8 +292,56 @@
             </div>
         </section>
 
+        <!-- FOOTER -->
 
-        <footer></footer>
+        <footer id="main-footer" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-4">
+                        <h3>LoopLAB</h3>
+                        <p>Copyright &copy; <span>2021</span></p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Contactez-nous</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- CONTACT -->
+
+        
+        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contactez-nous</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="nom-name" class="col-form-label">Nom</label>
+                                    <input type="text" class="form-control" id="nom-name" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email-name" class="col-form-label">Email</label>
+                                    <input type="email" class="form-control" id="email-name"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Message</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form> 
+                        </div>
+                         <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+       
         <script src="assets/js/script.js"></script>
+        
     </body>
 </html>
